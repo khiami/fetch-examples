@@ -1,0 +1,20 @@
+{
+  "name": "fetch-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generators": "nodemon generators --harmony",
+    "callback": "nodemon callback",
+    "async": "nodemon async-await --harmony",
+    "promise": "nodemon promise",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0"
+  }
+}
